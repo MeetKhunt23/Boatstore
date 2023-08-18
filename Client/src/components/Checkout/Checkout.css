@@ -1,0 +1,51 @@
+.cproductetail{
+  display: flex;
+  flex-direction: column;
+}
+
+.ccartitems{
+  line-height: 20px;
+  margin-bottom: 40px;
+ display: flex;
+ flex-direction: column;
+  float: left;
+}
+
+.ctotalinfo{
+   /* border: 2px solid red; */
+  position: relative;
+  /* left: 20%; */
+  top: 30px;
+  /* bottom: 150px; */
+  margin-bottom: 100px;
+  float: left;
+  margin-left:50px;
+  width:90%;
+  overflow-y: none;
+  /* border-right: 2px solid black; */
+  padding-left: 0px 55px;
+  
+}
+
+.citemcard {
+  /* border-right: 1px solid black; */
+   border: 2px solid rgb(192, 12, 228);
+  text-align: center;
+  display: flex;
+  padding: 20px 20px;
+  align-items: center;
+  margin: auto auto;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.cpinfo{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+  text-align: left;
+  padding-left: 50px;
+  width: 500px;
+  line-height: 30px;
+}

@@ -1,0 +1,125 @@
+@import "../../css-config/mixins.scss";
+
+.imgr {
+  width: 300px;
+  border: 2px solid black;
+  padding: 10px 10px;
+  // margin-left: 38%;
+}
+
+.maincon {
+  text-align: center;
+  margin: 20px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.details {
+  // border: 2px solid blue;
+  // margin-top: 20px;
+  padding-left: 20px;
+  text-align: left;
+  line-height: 40px;
+  // display: inline;
+}
+
+.buyorwish {
+  color: rgb(154, 13, 219);
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.rvwbtn {
+  border: 2px solid blue;
+  padding: 2px;
+  width: 90px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 35px;
+}
+.on {
+  //   color: #000;
+  color: rgb(255, 174, 0);
+}
+.off {
+  color: #ccc;
+}
+
+.rating {
+  display: flex;
+  width: 150px;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
+.review {
+  width: 650px;
+  display: flex;
+}
+
+.review textarea {
+  width: 500px;
+  height: 50px;
+  padding: 5px ;
+//   padding-top: 15px;
+}
+
+.subsc {
+  margin-left: 10px;
+  height: 40px;
+  width: 80px;
+  font-size: 15px;
+  color: white;
+  border: 2px solid rgb(252, 252, 253);
+  background-color: rgb(193, 18, 236);
+}
+
+.subsc:hover {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 0, 255);
+  color: black;
+}
+
+.pdetailcon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviewrating {
+  display: flex;
+  // margin-top: 80px;
+  position: relative;
+  top: 130px;
+  right: 175px;
+}
+.reviewrating .btn1 {
+  width: 120px;
+  height: 40px;
+  border: 2px solid rgb(0, 0, 255);
+  // border:2px solid rgb(193, 18, 236);
+  font-size: 25px;
+  color: grey;
+}
+
+.avgs {
+  color: rgb(255, 174, 0);
+  // font-size: 20px;
+  // border: 1px solid green;
+}
+
+.reviewrating .btn2 {
+  width: 160px;
+  height: 40px;
+  border: 2px solid rgb(0, 0, 255);
+  // border:2px solid rgb(193, 18, 236);
+  font-size: 15px;
+  color: grey;
+}

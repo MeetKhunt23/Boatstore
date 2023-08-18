@@ -1,0 +1,17 @@
+.reviewcontainer{
+    border: 2px solid rgb(219, 8, 247);
+    padding: 20px 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+
+}
+
+.reviewspan{
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+}

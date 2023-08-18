@@ -1,0 +1,134 @@
+.nav-bg .dropdown:hover .dropdown-menu {
+  display: block ;
+  margin-top: 5px;
+}
+
+.nav-bg .dropdown-menu {
+  background: white !important;
+  box-shadow: 5px 5px 17px 5px rgb(0 0 0 / 21%) ;
+  -webkit-box-shadow: 0px 0px 17px 0px rgb(0 0 0 / 12%) ;
+  -moz-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.21) ;
+  left: -100px ;
+  min-width: 20rem ;
+  border: 0px solid rgba(0,0,0,.15) ;
+  border-radius: 1rem ;
+  display: none;
+}
+.nav-bg .dropdown-menu:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-bottom-width: 8px;
+  border-bottom-style: solid;
+  border-right: 7px solid transparent;
+  border-bottom-color: white !important ;
+  position: absolute;
+  top: -8px;
+  right: 50%;
+}
+.nav-bg .dropdown-menu[data-bs-popper] {
+  left: -100px;
+  margin-top: 5px;
+}
+.nav-bg{
+  background:  #fff1ee !important;
+}
+.login-btn{
+  background:  #fcfafa !important;
+  border-color:  #111111 !important;
+  color: rgb(10, 10, 10) !important;
+  border-radius: 0px;
+  width: 100%;
+
+
+}
+/*.nav-item a{
+  color: black !important;
+}*/
+.login-btn:hover{
+  background:  #111111 !important;
+  border-color:  #000000 !important;
+  color: white !important;
+  border-radius: 0px;
+  border-radius: 2rem  ;
+   
+}
+
+.nav-bg .dropdown-divider-width {
+  width: 90%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav-bg .dropdown-divider {
+  height: 0;
+  // margin: 0.5rem 0 1.5rem 0;
+  overflow: hidden;
+  border-top: 2px solid rgba(0,0,0,.15);
+  width: 100%;
+}
+.nav-bg .dropdown-item:focus, .dropdown-item:hover {
+  color: white !important;
+  background-color: #ac47ff !important;
+  cursor: pointer;
+  scale: 1.1;
+  transition: 0.8s;
+}
+
+.whish-btn{
+  background:  #fcf9fb !important;
+  border-color:  #fc07aa !important;
+  color: rgb(14, 13, 13) !important;
+
+}
+.welcome{
+  margin-bottom: -10px;
+}
+.whish-btn:hover{
+  background:  #f70291 !important;
+  border-color:  #fffcfc !important;
+  color: rgb(255, 255, 255) !important;
+
+}
+
+.navstrip{
+background-color: white !important;
+}
+.search-btn{
+  background: transparent !important;
+  border-color:  #ff6347 !important;
+  color: #ff6347 !important;
+  
+}
+.search-btn:hover{
+ background:  #ff6347 !important;
+  border-color:  #ff6347 !important;
+  color: white !important;
+}
+
+// AiOutlineHeart{
+// font-size: 35px;
+// }
+
+.right{
+  align-items: center;
+  padding-top: 8px;
+  position: relative;
+  top: 5px;
+ gap: 20px;
+ cursor: pointer;
+}
+
+.navbar-brand h1{
+  border: none;
+  margin-top: -20px;
+  font-family: 800;
+margin-left: 0px;
+}
+
+.navbar-brand{
+  align-items: center;
+  position: relative;
+  bottom: 15px;
+}

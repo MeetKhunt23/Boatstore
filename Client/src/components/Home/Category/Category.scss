@@ -1,0 +1,55 @@
+@import "../../../css-config/mixins.scss";
+
+.shop-by-category {
+  margin: 25px 0px;
+  @include md {
+    margin: 50px 0px;
+  }
+  .categories {
+    margin-left: 50px;
+    padding: 23px 10px;
+    padding-left: 50px;
+    margin-top: 80px;
+    border: 2px solid rgb(138, 137, 132);
+    border-radius: 25px;
+    display: flex;
+    flex-flow: wrap;
+    gap: 10px;
+    .category {
+      // background-color: black;
+      align-items: center;
+      align-content: center;
+      width: calc(50% - 5px);
+      cursor: pointer;
+      // overflow: hidden;
+      @include md {
+        width: calc(25% - 10px);
+        align-items: center;
+      }
+      .naem{
+        text-align: center;
+        align-items: center;
+        margin-left: 20px;
+        margin-top: 20px;
+        border-radius: 25px;
+        border: 2px solid red;
+        color: red;
+      }
+      img {
+        width: 70%;
+        display: block;
+        transition: all ease 0.3s;
+      }
+      &:hover {
+        img {
+          transform: scale(1.2);
+          // border: 1px solid blue;
+          // padding-top: 20px;
+          // padding-bottom: 20px;
+          // overflow: auto;
+        }
+      }
+    }
+    
+  }
+}

@@ -1,0 +1,128 @@
+@import "../../css-config/mixins.scss";
+
+.cartimg {
+  width: 150px;
+  border: 1px solid black;
+  padding: 5px 5px;
+}
+
+.itemcard {
+  border-right: 2px solid rgb(134, 131, 131);
+  // text-align: center;
+  display: flex;
+  padding: 20px 20px;
+  align-items: center;
+  margin: auto auto;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.pinfo {
+  margin-left: 20px;
+}
+
+.cartitems {
+  line-height: 20px;
+  margin-bottom: 20px;
+  //   display: flex;
+  position: relative;
+  left: 17%;
+  top: 20px;
+  float: left;
+}
+
+.cb {
+  width: 30px;
+  border: 1px solid orange;
+  color: rgb(114, 7, 236);
+  background-color: white;
+  width: 50px;
+  height: 30px;
+  margin-left: 0px;
+}
+
+.cb:hover {
+  background-color: rgba(255, 229, 81, 0.74);
+}
+
+table {
+  //   margin-left: 0px;
+  width: 180px;
+  //   border: 1px solid orange;
+  //   padding: 5px 5px;
+}
+
+td {
+  margin: 5px 5px;
+}
+
+.quant {
+  background-color: orange;
+  color: white;
+  width: 50px;
+  height: 20px;
+
+}
+
+.totalinfo {
+//   border: 2px solid red;
+  position: relative;
+  left: 20%;
+  top: 30px;
+  float: left;
+  margin-left:50px;
+  width: 25%;
+  overflow-y: none;
+//   border-right: 2px solid black;
+  padding-left: 0px 55px;
+//   display: inline-block;
+}
+
+.productetail {
+  display: flex;
+}
+
+
+.totalam1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid grey;
+    padding-bottom: 20px;
+}
+
+.totalam{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    
+}
+
+.totalqty{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+margin-right: 20px;
+}
+
+.gtotal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.checkoutbtn{
+    background-color: rgb(156, 19, 156);
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 20px;
+
+}

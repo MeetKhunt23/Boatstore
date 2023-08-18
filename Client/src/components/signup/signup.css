@@ -1,0 +1,83 @@
+.formheading{
+text-align: center;
+color: rgb(247, 247, 247);
+font-weight: 500;
+background-color: rgba(236, 54, 8, 0.568);
+border:1px solid grey;
+align-items: center;
+padding: 5px 5px;
+margin-bottom: 10px;
+width: 80%;
+margin-left: 10%;
+margin-top: 20px;
+border-radius: 10px;
+text-transform: uppercase;
+
+}
+
+.radiobutton input{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.c_id{
+    margin-left: 15%;
+    position: absolute;
+    top: 55px;
+}
+
+h4{
+text-align: center;
+
+}
+
+.validlable{
+    font-size: 20px;
+    color: red;
+    margin-left: 15%;
+    margin-top: -10px;
+    margin-bottom: 10px;
+
+}
+
+.validlablegener{
+    font-size: 20px;
+    color: red;
+    /* margin-left: 15%; */
+    margin-top: -80px;
+    position: relative;
+    bottom: 40px;
+    margin-bottom: -20px;
+    left: 150px;
+}
+
+.validlablepp{
+    font-size: 20px;
+    color: red;
+    position: relative;
+    bottom: 40px;
+    left: 350px;
+    top: -25px;
+    margin-bottom: -30px;
+
+}
+
+button{
+    width: 80%;
+margin-left: 10%;
+}
+
+.maindiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.space{
+    margin-bottom: 15px;
+    padding: 15px 15px;
+    width: 70%;
+    align-items: center;
+    align-content: center;
+    margin-left: 15%;
+}
